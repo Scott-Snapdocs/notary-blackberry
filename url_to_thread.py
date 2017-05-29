@@ -79,8 +79,8 @@ class Post:
 
     '''print for validation'''
     def display(self):
-        print(self.author + ' @ ' + self.time)
         print('==='+self.title+'===')
+        print(self.author + ' @ ' + self.time)
         print(self.content)
         print('')
 
